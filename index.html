@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="./assets/fonts/coreui-icons-master/css/all.min.css">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     
     <title>Victor Almeida</title>
@@ -42,7 +41,13 @@
                      <i class="fab fa-linkedin-in"></i>    
                    </a>
             </span>
+            <span>
+                <a href="#contact">
+                    <i class="far fa-envelope" href="#contact"></i> 
+                </a>
+         </span>
             </div>
+
             <div class="header__description">
                 <p>I have been working with IT since 2014. I had my first step working with infrastructure,
                 when I built up knowledge about <strong>Linux</strong> and network.  Since 2018, I have 
@@ -50,11 +55,17 @@
                 <strong> JavaScript</strong>, <strong> TypeScript</strong>, <strong>NodeJS</strong> and <strong> ReactJS.</strong></p>           
             </div>
             <div class="header__button">
-              <button type="button"> Projects
-              </button>
-              <button type="button"> 
-                <a href="./assets/icons/resume.pdf" download> Resume </a>
-              </button>
+                     
+                <a href="#project">
+                  <button class="button" type="button"> Projects </button>
+                </a>
+                           
+              <a class="download" href="./assets/icons/resume.pdf" download> 
+                  <button type="button">
+                    Resume
+                  </button>
+              </a>
+            
             </div>
         </div>
         <div class="header__avatar">
@@ -64,14 +75,14 @@
     
     <div class="transition">
     <div class="arrow bounce">
-     <a class="fa fa-arrow-down fa-2x" href="#"></a>
+     <a class="fa fa-arrow-down fa-2x" href="#skills"></a>
      </div>
       <a href="#"></a>
         </div>  
   
     <div class="content">
         <div class="content__title">
-            <h2>Skills <i class="fas fa-code"></i></h2> 
+            <h2 id="skills">Skills <i class="fas fa-code"></i></h2> 
             </div>
         <div class="content__box">
         <div class="content__card">
@@ -81,18 +92,20 @@
                 <i class="fab fa-css3-alt fa-2x"></i>                
             </div>
             <div class="card__title">JavaScript, Html & CSS </div>
-            <div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Iusto quisquam itaque nam repellat suscipit vero aspernatur qui hic impedit. 
-                Optio beatae quos, harum dolor quis at architecto laboriosam aperiam eaque?</div>
+            <div class="card__text">Since long before when I had no idea that I would work with IT, these was the first
+                technologies that I learned. When I got from my parents my first computer I had started learned
+                about html, css and years later JavaScript. I learned just the basic but definitely it helped
+                 me to keep focus on IT. Today handle with that is the main part of my job.
+                </div>
         </div>
         <div class="content__card">
             <div class="card__icon">
                 <i class="fab fa-node fa-2x"></i>                
             </div>
             <div class="card__title">NodeJS </div>
-            <div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Iusto quisquam itaque nam repellat suscipit vero aspernatur qui hic impedit. 
-                Optio beatae quos, harum dolor quis at architecto laboriosam aperiam eaque?</div>
+            <div class="card__text">I have been working with NodeJS since 2019 creating api and microservices for small frontend applications.
+                The most experience with frameworks and Library from node I had is with Express Js, Mongoose and Knex.
+            </div>
         </div>
       <div class="content__card">
             <div class="card__icon">
@@ -100,45 +113,38 @@
                 <span class="iconify" data-icon="simple-icons:redux" data-inline="false"></span>           
             </div>
             <div class="card__title">React & Redux</div>
-            <div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Iusto quisquam itaque nam repellat suscipit vero aspernatur qui hic impedit. 
-                Optio beatae quos, harum dolor quis at architecto laboriosam aperiam eaque?</div>
+            <div class="card__text">I started working with react  about November 2019 on a project to create a new 
+                search interface for the ERP used in the company that I work. Since then this has been the fontend 
+                solution used by the development team. Beside that I have been the opportunity to attend on a bootcamp 
+                during thow months focusing on best  ReactJS and Redux best practices.</div>
         </div>
         <div class="content__card">
             <div class="card__icon">
                 <span class="iconify" data-icon="simple-icons:typescript" data-inline="false"></span>
             </div>
             <div class="card__title">TypeScript</div>
-            <div class="card__text">Losrem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Iusto quisquam itaque nam repellat suscipit vero aspernatur qui hic impedit. 
-                Optio beatae quos, harum dolor quis at arcshitecto laboriosam aperiam eaque?</div>
-        </div>
-        <div class="content__card">
-            <div class="card__icon">
-                <i class="fab fa-bootstrap fa-2x"></i>
+            <div class="card__text">Today I am used to starting a new projects with TypeScript. I am beginning, 
+                but also aware about the benefits of that so I intent used that on al my new personal projects. 
+                It's already really helping me to improve and maintain my JavaScript code, indeed.
+
             </div>
-            <div class="card__title">Bootstrap</div>
-            <div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Iusto quisquam itaque nam repellat suscipit vero aspernatur qui hic impedit. 
-                Optio beatae quos, harum dolor quis at architecto laboriosam aperiam eaque?</div>
         </div>
         <div class="content__card">
             <div class="card__icon">
                <i class="fab fa-python fa-2x"></i>
+               <i class="fab fa-bootstrap fa-2x"></i>
             </div>
-            <div class="card__title">Python & Django</div>
-            <div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Iusto quisquam itaque nam repellat suscipit vero aspernatur qui hic impedit. 
-                Optio beatae quos, harum dolor quis at architecto laboriosam aperiam eaque?</div>
+            <div class="card__title">Python, Django and Bootstrap</div>
+            <div class="card__text">I had have the opportunity to for one year maintain and developer
+                 for new functionality for legacy application one. For that I needed handling with Python, Django e Bootstrap. </div>
         </div>
         <div class="content__card">
             <div class="card__icon">
                <i class="fab fa-linux fa-2x"></i>             
             </div>
             <div class="card__title">Linux</div>
-            <div class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Iusto quisquam itaque nam repellat suscipit vero aspernatur qui hic impedit. 
-                Optio beatae quos, harum dolor quis at architecto laboriosam aperiam eaque?</div>
+            <div class="card__text">In my first job all infrastructure was in Linux Servers. So since that,
+                 I learned so much and got strong skills on linux's world. Thats includes: SAMBA, NFS, APACHE, NGINX, ProFTPD and CUPS. </div>
         </div>
         <div class="content__card">
             <div class="card__icon">
@@ -146,13 +152,233 @@
                 <span class="iconify" data-icon="cib:postgresql" data-inline="false"></span>
                 <span class="iconify" data-icon="cib:mongodb" data-inline="false"></span>
             <div class="card__title">Mysql, PostgreSql & MongoDb</div>
-            <div class="card__text" id="lastone">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                 Iusto quisquam itaque nam repellat suscipit vero aspernatur qui hic impedit. 
-                Optio beatae quos, harum dolor quis at architecto laboriosam aperiam eaque?</div>
+            <div class="card__text" id="lastone">Throughout these years working in the infrastructure area, I had the opportunity to go deeper into 
+                the administration, backup and maintenance of the databases above. In the my last years dedicated to development, 
+                this background has been very useful for choosing the best practices for developing applications when these SGDBs are used.</div>
         </div>
+     </div>
     </div>
-    
     </div>
+
+  <div class="projects">
+    <div class="projects__title">
+        <h2 id="project">Projects  <i class="fas fa-tasks"></i></h2> 
+    </div>
+    <div class="project__box">
+
+
+      <div class="project__item">
+        <div class="project__card box-over">  
+          <div class="project__img">
+            <i class="fab fa-searchengin fa-3x"></i>
+          </div>
+        <div class="project__text">
+          <div class="project__title box"> 
+            <div class="theme">ReactJS SearchFilter</div>
+            <div class="project__content box">
+                <a class="project-link" href="https://lnkd.in/eGvi5Ua" target="_blank">Live</a>
+                <a class="project-link" href=" https://lnkd.in/eheb8CS" target="_blank">Code</a>
+            </div>
+          </div>
+          <div class="project__description">
+            A SPA (Single Page App) contact list. It map all data from a real-time search filter.</div>
+          <div class="project__buttons">
+            <i class="fab fa-react"></i>
+              <i class="fab fa-js-square "></i>
+              <i class="fab fa-html5 "></i>
+              <i class="fab fa-css3-alt"></i>  
+          </div>
+        </div>
+       </div>
+     </div>
+
+     <div class="project__item">
+        <div class="project__card box-over">  
+          <div class="project__img">
+            <i class="fas fa-adjust fa-3x"></i>
+          </div>
+        <div class="project__text">
+          <div class="project__title box"> 
+            <div class="theme">Dark Mode</div>
+            <div class="project__content box">
+                <a class="project-link" href="https://victoralmeidafonseca.github.io/dark-mode/" target="_blank">Live</a>
+                <a class="project-link" href="https://github.com/VictorAlmeidaFonseca/dark-mode" target="_blank">Code</a>
+            </div>
+          </div>
+          <div class="project__description">
+            A pretty simple JavaScript script for to change the default colors from page.</div>
+          <div class="project__buttons">
+              <i class="fab fa-js-square "></i>
+              <i class="fab fa-html5 "></i>
+              <i class="fab fa-css3-alt"></i>  
+          </div>
+        </div>
+       </div>
+     </div>
+
+      
+      <div class="project__item">
+        <div class="project__card box-over">  
+          <div class="project__img">
+               <i class="fab fa-instagram fa-3x"></i>
+          </div>
+        <div class="project__text">
+          <div class="project__title box"> 
+            <div class="theme">Instagram Clone app</div>
+            <div class="project__content box">
+                <a class="project-link" href="https://lnkd.in/e5cudF4" target="_blank">Live</a>
+                <a class="project-link" href="https://lnkd.in/e2XpU6x" target="_blank">Code</a>
+            </div>
+          </div>
+          <div class="project__description">
+            A simple Instagram Clone app.</div>
+          <div class="project__buttons">
+              <i class="fab fa-js-square "></i>
+              <i class="fab fa-html5 "></i>
+              <i class="fab fa-css3-alt"></i>  
+          </div>
+        </div>
+       </div>
+     </div>
+      <div class="project__item">
+        <div class="project__card box-over">  
+          <div class="project__img">
+            <i class="fab fa-imdb fa-3x"></i>
+          </div>
+        <div class="project__text">
+          <div class="project__title box"> 
+            <div class="theme">IMDB site clone</div>
+            <div class="project__content box">
+                <a class="project-link" href="https://imdb-clone-aceleradev.netlify.app/" target="_blank">Live</a>
+                <a class="project-link" href="https://github.com/VictorAlmeidaFonseca/aceleradev-react/tree/master/siteIMDB" target="_blank">Code</a>
+            </div>
+          </div>
+          <div class="project__description">
+            A simple IMDB site clone app.</div>
+          <div class="project__buttons">
+             <i class="fab fa-js-square "></i>
+             <i class="fab fa-html5 "></i>
+             <i class="fab fa-css3-alt"></i>  
+          </div>
+        </div>
+       </div>
+     </div>
+      <div class="project__item">
+        <div class="project__card box-over">  
+          <div class="project__img">
+            <i class="fas fa-scroll fa-3x"></i>
+          </div>
+        <div class="project__text">
+          <div class="project__title box"> 
+            <div class="theme"> Caesar Cipher</div>
+            <div class="content__over">
+               <a class="project-link" href="https://github.com/VictorAlmeidaFonseca/critografiaJulioCesar" target="_blank">Code</a>
+            </div>
+          </div>
+          <div class="project__description">
+            Script for one of the simplest and most widely known encryption techniques.</div>
+          <div class="project__buttons">
+             <i class="fab fa-node fa-2x"></i>  
+          </div>
+        </div>
+       </div>
+     </div>
+
+     <div class="project__item">
+        <div class="project__card box-over">  
+          <div class="project__img">
+            <i class="fas fa-shopping-cart fa-3x"></i>
+          </div>
+        <div class="project__text">
+          <div class="project__title box"> 
+            <div class="theme">Shopping Cart</div>
+            <div class="content__over">
+                <a class="project-link" href="https://github.com/VictorAlmeidaFonseca/aceleradev-react/tree/master/cart" target="_blank">Code</a>
+            </div>
+          </div>
+          <div class="project__description">
+            Find out the promotions applied to a shopping cart using NodeJS</div>
+          <div class="project__buttons">
+            <i class="fab fa-node fa-2x"></i>  
+          </div>
+        </div>
+       </div>
+     </div>
+     
+     <div class="project__item">
+        <div class="project__card box-over">  
+          <div class="project__img">
+            <i class="fas fa-wallet fa-3x"></i>
+          </div>
+        <div class="project__text">
+          <div class="project__title box"> 
+            <div class="theme">Virtual Wallet</div>
+            <div class="content__over">
+                <a class="project-link" href="https://github.com/VictorAlmeidaFonseca/CaixaVirtual" target="_blank">Code</a>
+            </div>
+          </div>
+          <div class="project__description">
+            API for virtual cash register.</div>
+          <div class="project__buttons">
+            <i class="fab fa-node fa-2x"></i>  
+          </div>
+        </div>
+       </div>
+     </div>
+
+
+      
+
+    </div>   
+    </div>
+   </div>
+
+
+    <div class="contact">
+      <div class="contact__title">
+        <h2 id="contact"  >Contact  <i class="fas fa-envelope-open-text"></i></h2> 
+      </div>
+      
+      <div class="contact__box">     
+        <form  class="contact__form" action="https://formspree.io/xjvakajz" method="POST">
+          
+            <div class="contact__name">
+                <label>
+                  Your name:
+                  <input type="text" name="name" id="name-label">
+                </label>
+               </div>
+
+
+          <div class="contact__email">
+          <label> Your email:
+            <input type="text" name="_replyto">
+          </label>
+         </div>
+        
+      
+
+         <div class="contact__message">        
+          <label class="form__label" id="name-label">
+            Your Message:
+            <textarea
+              class="form__input-field form__input-field--textarea"
+              type="text"
+              name="message"
+              required
+              placeholder="What are you getting in touch about? Tell me more here."
+            ></textarea>
+           
+        </div>
+        <div class="send">
+            <button type="submit">Send</button>
+           </div>
+        
+        </form>
+      </div>
+  </div>
+
+    </div> 
    
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <script src="./js/jquery-3.5.1.min.js"></script>
